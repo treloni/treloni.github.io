@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Регистрация</title>
+    <link rel="icon" href="/favicon (1).ico">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400;500;700;900&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Montserrat:wght@400;700&display=swap"
+        rel="stylesheet">
+
+    <link href="/css/registration.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+
+    <header class="header">
+        <div class="container">
+            <div class="header__inner">
+                <a href="../index.html" class="header__logo"> SneakerStore </a>
+                <nav class="nav">
+                    <a class="nav__link" href="contacts.html">О нас / Контакты</a>
+                    <a class="nav__link" href="delivery.html">Доставка и оплата</a>
+                    <a class="nav__link" href="refund.html">Обмен и возврат</a>
+                    <a class="nav__link" href="authorization.html">Вход</a>
+                    <a class="nav__link" href="registration.html">Регистрация</a>
+                </nav>
+            </div>
+        </div>
+
+    </header>
+
+    <form class="form">
+        <div class="authorization">
+            <h1 class="form_title">РЕГИСТРАЦИЯ</h1>
+            <div class="form__sex">
+                <div class="form__sex-title">Пол:</div>
+                <input name="sex" type="radio">
+                <label class="label_sex" name="sex">Мужской</label>
+                <input name="sex" type="radio">
+                <label class="label_sex" name="sex">Женский</label>
+            </div>
+            <div class="form__name">
+                <label for="username" name="username" class="label__name">Имя</label>
+                <input id="username" class="form__input">
+                <label for="lastname" class="label__name">Фамилия</label>
+                <input id="lastname" class="form__input">
+            </div>
+
+            <div class="form__password">
+                <label for="email" class="label__password">E-mail</label>
+                <input type="email" id="email" class="form__input" placeholder="email@example.com">
+                <label for="password" name="password" class="label__password">Пароль</label>
+                <input id="password" class="form__input" type="password" placeholder="********">
+                <label for="password" name="password" class="label__password">Повторите пароль</label>
+                <input id="password" class="form__input" type="password">
+            </div>
+        </div>
+        <div class="form__agreement">
+            <input id="vopros" name="vopros" type="checkbox">
+            <label for="vopros" class="label__question">Я принимаю условия Пользовательского соглашения<br>
+                и прочитал и понял Политику о конфиденциальности SneakerStore</label>
+        </div>
+        <div class="form__stocks">
+            <input id="vopros" name="vopros" type="checkbox">
+            <label for="vopros" class="label__question">Я хочу получать информационную
+                рассылку о скидках и акциях
+            </label>
+        </div>
+        <button type="submit" class="form__button">Регистрация</button>
+    </form>
+
+    <footer>
+        <div class="container">
+            <div class="footer">
+                <div class="footer__logo">SneakerStore<br> магазин кроссовок </div>
+                <div class="footer__nav">
+                    <div class="footer__nav-title">НАШИ СОЦИАЛЬНЫЕ СЕТИ</div>
+                    <nav class="footer__nav-link">
+                        <img src="/images/VK(logo).svg" alt="VK">
+                        <img src="/images/instagram)logo).svg" alt="Telegram">
+                        <img src="/images/telegram(logo).svg" alt="Instagram">
+
+                    </nav>
+                </div>
+            </div>
+
+        </div>
+
+    </footer>
+
+</body>
+
+</html>

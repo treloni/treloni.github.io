@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="icon" href="/favicon (1).ico">
+    <link rel=" stylesheet" href="/css/main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400;500;700;900&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Montserrat:wght@400;700&display=swap"
+        rel="stylesheet">
+    <title>SneakerStore</title>
+</head>
+
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="header__inner">
+                <div class="header__logo">SneakerStore</div>
+                <nav class="nav">
+                    <a class="nav__link" href="/html/contacts.html">О нас / Контакты</a>
+                    <a class="nav__link" href="/html/delivery.html">Доставка и оплата</a>
+                    <a class="nav__link" href="/html/refund.html">Обмен и возврат</a>
+                    <a class="nav__link" href="/html/authorization.html">Вход</a>
+                    <a class="nav__link" href="/html/registration.html">Регистрация</a>
+                </nav>
+            </div>
+            <div class="header__categories">
+                <a class="nav_categories" href="#"><b>Все кроссовки</b></a>
+                <a class="nav_categories" href="#">Nike</a>
+                <a class="nav_categories" href="#">Adidas</a>
+                <a class="nav_categories" href="#">Puma</a>
+                <a class="nav_categories" href="#">Другие бренды</a>
+
+            </div>
+
+        </div>
+
+    </header>
+    <div class="container">
+        <div class="sale">
+            <img src="/images/3062.jpg" alt="Специальные предложения и акции" width="1200px" height="362px">
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="product">
+            <section>
+                <form class="filters">
+                    <h3>Найдено 345 товаров</h3>
+                    <fieldset>
+                        <legend>БРЕНД</legend>
+                        <ul>
+                            <li>
+                                <input type="checkbox" name="brand" id="Nike">
+                                <label for="Nike"> NIKE </label>
+                            </li>
+                            <li>
+                                <input type="checkbox" name="brand" id="Adidas">
+                                <label for="Adidas"> ADIDAS </label>
+                            </li>
+                            <li>
+                                <input type="checkbox" name="brand" id="Reebok">
+                                <label for="Reebok"> REEBOK </label>
+                            </li>
+                            <li>
+                                <input type="checkbox" name="brand" id="other_brands">
+                                <label for="other_brands"> Другие бренды </label>
+                            </li>
+                        </ul>
+
+                    </fieldset>
+                    <fieldset>
+                        <legend>РАЗМЕР</legend>
+                        <ul>
+                            <li>
+                                <input type="checkbox" name="size" id="42.5">
+                                <label for="42.5"> 42.5 </label>
+                            </li>
+                            <li>
+                                <input type="checkbox" name="size" id="43">
+                                <label for="43"> 43 </label>
+                            </li>
+                            <li>
+                                <input type="checkbox" name="size" id="44">
+                                <label for="44"> 44 </label>
+                            </li>
+                            <li>
+                                <input type="checkbox" name="size" id="45">
+                                <label for="45"> 45 </label>
+                            </li>
+                            <li>
+                                <input type="checkbox" name="size" id="46">
+                                <label for="46"> 46 </label>
+                            </li>
+                            <li>
+                                <input type="checkbox" name="size" id="other_sizes">
+                                <label for="other_sizes"> Другие размеры </label>
+                            </li>
+                        </ul>
+                    </fieldset>
+                    <fieldset>
+                        <legend>ПОЛ</legend>
+                        <ul>
+                            <li>
+                                <input type="checkbox" name="sex" id="man">
+                                <label for="man"> Мужской </label>
+                            </li>
+                            <li>
+                                <input type="checkbox" name="sex" id="woman">
+                                <label for="woman"> Женский </label>
+                            </li>
+                        </ul>
+                    </fieldset>
+                    <fieldset>
+                        <legend>ЦВЕТ</legend>
+                        <ul>
+                            <li>
+                                <input type="checkbox" name="color" id="red">
+                                <label for="red"> Красный </label>
+                            </li>
+                            <li>
+                                <input type="checkbox" name="color" id="black">
+                                <label for="black"> Черный </label>
+                            </li>
+                            <li>
+                                <input type="checkbox" name="color" id="blue">
+                                <label for="blue"> Синий </label>
+                            </li>
+                            <li>
+                                <input type="checkbox" name="color" id="brown">
+                                <label for="brown"> Коричневый </label>
+                            </li>
+                            <li></li>
+                        </ul>
+                    </fieldset>
+                    <fieldset>
+                        <legend>КАТЕГОРИИ</legend>
+                        <ul>
+                            <li>
+                                <input type="checkbox" name="category" id="sneakers">
+                                <label for="sneakers"> Кроссовки </label>
+                            </li>
+                            <li>
+                                <input type="checkbox" name="category" id="sneaker">
+                                <label for="sneaker"> Кеды </label>
+                            </li>
+                            <li>
+                                <input type="checkbox" name="category" id="basketball">
+                                <label for="basketball"> Баскетбол </label>
+                            </li>
+                            <li>
+                                <input type="checkbox" name="category" id="running">
+                                <label for="running"> Бег </label>
+
+                            </li>
+                        </ul>
+                    </fieldset>
+                    <button type="submit" class="button-result">ПОКАЗАТЬ</button>
+
+                </form>
+
+            </section>
+
+            <div class="tovar">
+                <div class="tovar__item">
+                    <div onclick="location.href='/html/tovar1.html'" class="tovar__item-image"></div>
+                    <div class="tovar__item-title">Puma X-Ray Game</div>
+                    <div class="tovar__item-price">
+                        <div class="tovar__item-price_old">8 990</div>
+                        <div class="tovar__item-price_actual">7 190</div>
+                    </div>
+                    <div class="tovar__item-size">
+                        <div class="tovar__item-size_title">Размеры: </div>
+                        <div class="tovar__item-size_availabe"> 38</div>
+                    </div>
+                </div>
+                <div class="tovar__item">
+                    <div onclick="location.href='/html/tovar1.html'" class="tovar__item-image2"></div>
+                    <div class="tovar__item-title">Adidas ULTRABOOST 22</div>
+                    <div class="tovar__item-price">
+                        <div class="tovar__item-price_old">18 990</div>
+                        <div class="tovar__item-price_actual">11 390</div>
+                    </div>
+                    <div class="tovar__item-size">
+                        <div class="tovar__item-size_title">Размеры: </div>
+                        <div class="tovar__item-size_availabe"> 38 39.5 42 43 45</div>
+                    </div>
+                </div>
+                <div class="tovar__item">
+                    <div onclick="location.href='/html/tovar1.html'" class="tovar__item-image3"></div>
+                    <div class="tovar__item-title">NIKE AIR ZOOM BB NXT</div>
+                    <div class="tovar__item-price">
+                        <div class="tovar__item-price_old">19 990</div>
+                        <div class="tovar__item-price_actual">16 090</div>
+                    </div>
+                    <div class="tovar__item-size">
+                        <div class="tovar__item-size_title">Размеры: </div>
+                        <div class="tovar__item-size_availabe"> 38 45 46</div>
+                    </div>
+                </div>
+                <div class="tovar__item">
+                    <div onclick="location.href='/html/tovar1.html'" class="tovar__item-image4"></div>
+                    <div class="tovar__item-title">Plein Sport</div>
+                    <div class="tovar__item-price">
+                        <div class="tovar__item-price_old">31 200</div>
+                        <div class="tovar__item-price_actual">25 400</div>
+                    </div>
+                    <div class="tovar__item-size">
+                        <div class="tovar__item-size_title">Размеры: </div>
+                        <div class="tovar__item-size_availabe"> 39.5 43 44.5 45</div>
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <div class="container">
+            <div class="footer">
+                <div class="footer__logo">SneakerStore<br> Магазин кроссовок </div>
+                <div class="footer__nav">
+                    <div class="footer__nav-title">НАШИ СОЦИАЛЬНЫЕ СЕТИ</div>
+                    <nav class="footer__nav-link">
+                        <img src="/images/VK(logo).svg" alt="VK">
+                        <img src="/images/instagram)logo).svg" alt="Telegram">
+                        <img src="/images/telegram(logo).svg" alt="Instagram">
+
+                    </nav>
+                </div>
+            </div>
+
+        </div>
+
+    </footer>
+
+</body>
+
+</html>

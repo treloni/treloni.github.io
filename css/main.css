@@ -1,0 +1,299 @@
+*,
+::after,
+::before {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgba(255, 255, 255, 0.726);
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    color: #333;
+    line-height: 1.6;
+
+
+}
+
+.container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.header__inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav__link {
+    margin-left: 10px;
+    text-decoration: none;
+    color: #333;
+    border: 2px solid transparent;
+}
+
+
+.nav__link:hover {
+    background: white;
+    border: 2px solid #353434;
+    border-radius: 5px;
+}
+
+.header {
+    padding-top: 35px;
+}
+
+.header__logo {
+    font-weight: bold;
+    font-size: 35px;
+}
+
+
+.header__categories {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.nav_categories {
+    margin-right: 30px;
+    text-decoration: none;
+    color: #333;
+    font-size: 20px;
+    border: 2px solid transparent;
+
+}
+
+.nav_categories:hover {
+    background: white;
+    border: 2px solid #353434;
+    border-radius: 5px;
+}
+
+.sale {
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.filters {
+    width: 300px;
+    background-color: rgb(202, 202, 202);
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    border: 2px solid #333;
+    padding: 20px 15px 20px 15px;
+    height: 1100px;
+
+
+}
+
+.filters li {
+    list-style-type: none;
+}
+
+.filters ul {
+    padding-left: 0;
+}
+
+.filters__count {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+
+}
+
+.filters__section-checkbox {
+    margin-top: 10px;
+}
+
+.filters__section {
+    margin-top: 10px;
+}
+
+
+.filters__section::after {
+    display: block;
+    content: "";
+    height: 3px;
+    width: 100%;
+    margin: 10px auto 0;
+    background-color: #fff;
+}
+
+.button-result {
+    width: 160px;
+    height: 35px;
+    margin: 25px auto;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    border-radius: 5px;
+    cursor: pointer;
+
+}
+
+.tovar {
+    width: 850px;
+    margin-top: 20px;
+    display: flex;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+
+.product {
+    display: flex;
+    justify-content: space-between;
+    background-image: url(/images/fon1.png);
+}
+
+.tovar__item img {
+    height: 620px;
+    width: 395px;
+}
+
+.tovar__item {
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 2px solid #333;
+    margin-bottom: 30px;
+    position: relative;
+    background-color: white;
+    cursor: pointer;
+
+
+}
+
+.tovar__item-image {
+    height: 625px;
+    width: 395px;
+    background-size: contain;
+    background-image: url(/images/puma1.webp);
+}
+
+.tovar__item-image:hover {
+    background-size: contain;
+    background-image: url(/images/puma3.webp);
+
+}
+
+.tovar__item-image2 {
+    height: 625px;
+    width: 395px;
+    background-size: contain;
+    background-image: url(/images/adidas1.webp);
+}
+
+.tovar__item-image2:hover {
+    background-size: contain;
+    background-image: url(/images/adidas2.webp);
+
+}
+
+.tovar__item-image3 {
+    height: 625px;
+    width: 395px;
+    background-size: contain;
+    background-image: url(/images/nike1.webp);
+}
+
+.tovar__item-image3:hover {
+    background-size: contain;
+    background-image: url(/images/nike2.webp);
+
+}
+
+.tovar__item-image4 {
+    height: 625px;
+    width: 395px;
+    background-size: contain;
+    background-image: url(/images/plein1.webp);
+}
+
+.tovar__item-image4:hover {
+    background-size: contain;
+    background-image: url(/images/plein2.webp);
+
+}
+
+.tovar__item-price {
+    display: flex;
+    justify-content: space-between;
+    width: 200px;
+    font-weight: 700;
+    font-size: 17px;
+}
+
+.tovar__item-title {
+    font-weight: 700;
+    font-size: 19px;
+}
+
+.tovar__item-price_old {
+    text-decoration: line-through;
+}
+
+.tovar__item-price_actual {
+    color: rgb(175, 8, 8);
+}
+
+.tovar__item-price_old::after {
+    content: "₽";
+}
+
+.tovar__item-price_actual::after {
+    content: "₽";
+}
+
+
+.footer {
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(202, 202, 202);
+    padding: 5px 15px 5px 15px;
+    color: #333;
+    border: 2px solid black;
+
+}
+
+.footer__logo {
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 1;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.footer__nav-title {
+    font-weight: bold;
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.footer__nav-link img {
+    height: 30px;
+    width: 30px;
+    cursor: pointer;
+}
+
+.footer__nav-link {
+    margin-top: 5px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.tovar__item-size {
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 17px;
+    font-weight: 700;
+}
+
+.tovar__item-size_availabe {
+    margin-left: 10px;
+}
